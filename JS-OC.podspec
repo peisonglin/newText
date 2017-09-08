@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.license      = "MIT"
   s.author             = { "" => "" }
   s.source       = { :git => "https://github.com/peisonglin/newText.git", :tag => "s.version" }
-  s.source_files  = ""JS-OC/**/*"
+  s.source_files  = "JS-OC/**/*"
   s.exclude_files = "Classes/Exclude"
   s.requires_arc = true
 
