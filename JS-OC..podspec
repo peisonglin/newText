@@ -3,7 +3,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "JS-OC."
-  s.version      = "0.0.1"
+  s.version      = "1.1.1"
   s.summary      = "A short description of JS-OC.."
   s.description  = "新手测试用户git进github"
   s.homepage     = "http://EXAMPLE/JS-OC."
