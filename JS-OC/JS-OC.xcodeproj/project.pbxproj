@@ -1,0 +1,723 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		98381B884D77E8FD7223050D /* libPods-JS-OC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 90CEFE0DCC896E40418FD06E /* libPods-JS-OC.a */; };
+		E776614D1F385495008AE999 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E776614C1F385495008AE999 /* main.m */; };
+		E77661501F385495008AE999 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E776614F1F385495008AE999 /* AppDelegate.m */; };
+		E77661531F385495008AE999 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E77661521F385495008AE999 /* ViewController.m */; };
+		E77661561F385496008AE999 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E77661541F385496008AE999 /* Main.storyboard */; };
+		E77661581F385496008AE999 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E77661571F385496008AE999 /* Assets.xcassets */; };
+		E776615B1F385496008AE999 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E77661591F385496008AE999 /* LaunchScreen.storyboard */; };
+		E77661661F385496008AE999 /* JS_OCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E77661651F385496008AE999 /* JS_OCTests.m */; };
+		E77661711F385496008AE999 /* JS_OCUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E77661701F385496008AE999 /* JS_OCUITests.m */; };
+		E77661801F3857BF008AE999 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E776617F1F3857BF008AE999 /* JavaScriptCore.framework */; };
+		E77661831F38600C008AE999 /* TestJSObject.m in Sources */ = {isa = PBXBuildFile; fileRef = E77661821F38600C008AE999 /* TestJSObject.m */; };
+		E77661861F39C002008AE999 /* OneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E77661851F39C002008AE999 /* OneViewController.m */; };
+		E77661891F39C016008AE999 /* TwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E77661881F39C016008AE999 /* TwoViewController.m */; };
+		E776618C1F39C050008AE999 /* ThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E776618B1F39C050008AE999 /* ThreeViewController.m */; };
+		E77661A11F3C36AE008AE999 /* voice1.png in Resources */ = {isa = PBXBuildFile; fileRef = E77661991F3C36AD008AE999 /* voice1.png */; };
+		E77661A21F3C36AE008AE999 /* voice2.png in Resources */ = {isa = PBXBuildFile; fileRef = E776619A1F3C36AD008AE999 /* voice2.png */; };
+		E77661A31F3C36AE008AE999 /* voice3.png in Resources */ = {isa = PBXBuildFile; fileRef = E776619B1F3C36AD008AE999 /* voice3.png */; };
+		E77661A41F3C36AE008AE999 /* voice4.png in Resources */ = {isa = PBXBuildFile; fileRef = E776619C1F3C36AD008AE999 /* voice4.png */; };
+		E77661A51F3C36AE008AE999 /* voice5.png in Resources */ = {isa = PBXBuildFile; fileRef = E776619D1F3C36AD008AE999 /* voice5.png */; };
+		E77661A61F3C36AE008AE999 /* voice6.png in Resources */ = {isa = PBXBuildFile; fileRef = E776619E1F3C36AD008AE999 /* voice6.png */; };
+		E77661A71F3C36AE008AE999 /* voice7.png in Resources */ = {isa = PBXBuildFile; fileRef = E776619F1F3C36AD008AE999 /* voice7.png */; };
+		E77661A81F3C36AE008AE999 /* voice8.png in Resources */ = {isa = PBXBuildFile; fileRef = E77661A01F3C36AD008AE999 /* voice8.png */; };
+		E77661B21F3C36BD008AE999 /* voiceR1.png in Resources */ = {isa = PBXBuildFile; fileRef = E77661AA1F3C36BD008AE999 /* voiceR1.png */; };
+		E77661B31F3C36BD008AE999 /* voiceR2.png in Resources */ = {isa = PBXBuildFile; fileRef = E77661AB1F3C36BD008AE999 /* voiceR2.png */; };
+		E77661B41F3C36BD008AE999 /* voiceR3.png in Resources */ = {isa = PBXBuildFile; fileRef = E77661AC1F3C36BD008AE999 /* voiceR3.png */; };
+		E77661B51F3C36BD008AE999 /* voiceR4.png in Resources */ = {isa = PBXBuildFile; fileRef = E77661AD1F3C36BD008AE999 /* voiceR4.png */; };
+		E77661B61F3C36BD008AE999 /* voiceR5.png in Resources */ = {isa = PBXBuildFile; fileRef = E77661AE1F3C36BD008AE999 /* voiceR5.png */; };
+		E77661B71F3C36BD008AE999 /* voiceR6.png in Resources */ = {isa = PBXBuildFile; fileRef = E77661AF1F3C36BD008AE999 /* voiceR6.png */; };
+		E77661B81F3C36BD008AE999 /* voiceR7.png in Resources */ = {isa = PBXBuildFile; fileRef = E77661B01F3C36BD008AE999 /* voiceR7.png */; };
+		E77661B91F3C36BD008AE999 /* voiceR8.png in Resources */ = {isa = PBXBuildFile; fileRef = E77661B11F3C36BD008AE999 /* voiceR8.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E77661621F385496008AE999 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E77661401F385495008AE999 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E77661471F385495008AE999;
+			remoteInfo = "JS-OC";
+		};
+		E776616D1F385496008AE999 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E77661401F385495008AE999 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E77661471F385495008AE999;
+			remoteInfo = "JS-OC";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		90CEFE0DCC896E40418FD06E /* libPods-JS-OC.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JS-OC.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D71C16DEF2CE9D020AB15A07 /* Pods-JS-OC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JS-OC.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JS-OC/Pods-JS-OC.debug.xcconfig"; sourceTree = "<group>"; };
+		E77661481F385495008AE999 /* JS-OC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "JS-OC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E776614C1F385495008AE999 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E776614E1F385495008AE999 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E776614F1F385495008AE999 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E77661511F385495008AE999 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E77661521F385495008AE999 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E77661551F385496008AE999 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E77661571F385496008AE999 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E776615A1F385496008AE999 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E776615C1F385496008AE999 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E77661611F385496008AE999 /* JS-OCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "JS-OCTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E77661651F385496008AE999 /* JS_OCTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JS_OCTests.m; sourceTree = "<group>"; };
+		E77661671F385496008AE999 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E776616C1F385496008AE999 /* JS-OCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "JS-OCUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E77661701F385496008AE999 /* JS_OCUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JS_OCUITests.m; sourceTree = "<group>"; };
+		E77661721F385496008AE999 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E776617F1F3857BF008AE999 /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		E77661811F38600C008AE999 /* TestJSObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestJSObject.h; sourceTree = "<group>"; };
+		E77661821F38600C008AE999 /* TestJSObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestJSObject.m; sourceTree = "<group>"; };
+		E77661841F39C002008AE999 /* OneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OneViewController.h; sourceTree = "<group>"; };
+		E77661851F39C002008AE999 /* OneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OneViewController.m; sourceTree = "<group>"; };
+		E77661871F39C016008AE999 /* TwoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TwoViewController.h; path = ../TwoViewController.h; sourceTree = "<group>"; };
+		E77661881F39C016008AE999 /* TwoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TwoViewController.m; path = ../TwoViewController.m; sourceTree = "<group>"; };
+		E776618A1F39C050008AE999 /* ThreeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThreeViewController.h; sourceTree = "<group>"; };
+		E776618B1F39C050008AE999 /* ThreeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThreeViewController.m; sourceTree = "<group>"; };
+		E77661991F3C36AD008AE999 /* voice1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = voice1.png; sourceTree = "<group>"; };
+		E776619A1F3C36AD008AE999 /* voice2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = voice2.png; sourceTree = "<group>"; };
+		E776619B1F3C36AD008AE999 /* voice3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = voice3.png; sourceTree = "<group>"; };
+		E776619C1F3C36AD008AE999 /* voice4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = voice4.png; sourceTree = "<group>"; };
+		E776619D1F3C36AD008AE999 /* voice5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = voice5.png; sourceTree = "<group>"; };
+		E776619E1F3C36AD008AE999 /* voice6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = voice6.png; sourceTree = "<group>"; };
+		E776619F1F3C36AD008AE999 /* voice7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = voice7.png; sourceTree = "<group>"; };
+		E77661A01F3C36AD008AE999 /* voice8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = voice8.png; sourceTree = "<group>"; };
+		E77661AA1F3C36BD008AE999 /* voiceR1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = voiceR1.png; sourceTree = "<group>"; };
+		E77661AB1F3C36BD008AE999 /* voiceR2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = voiceR2.png; sourceTree = "<group>"; };
+		E77661AC1F3C36BD008AE999 /* voiceR3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = voiceR3.png; sourceTree = "<group>"; };
+		E77661AD1F3C36BD008AE999 /* voiceR4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = voiceR4.png; sourceTree = "<group>"; };
+		E77661AE1F3C36BD008AE999 /* voiceR5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = voiceR5.png; sourceTree = "<group>"; };
+		E77661AF1F3C36BD008AE999 /* voiceR6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = voiceR6.png; sourceTree = "<group>"; };
+		E77661B01F3C36BD008AE999 /* voiceR7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = voiceR7.png; sourceTree = "<group>"; };
+		E77661B11F3C36BD008AE999 /* voiceR8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = voiceR8.png; sourceTree = "<group>"; };
+		F12B52F38FC7FCBE83296FDC /* Pods-JS-OC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JS-OC.release.xcconfig"; path = "Pods/Target Support Files/Pods-JS-OC/Pods-JS-OC.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E77661451F385495008AE999 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E77661801F3857BF008AE999 /* JavaScriptCore.framework in Frameworks */,
+				98381B884D77E8FD7223050D /* libPods-JS-OC.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E776615E1F385496008AE999 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E77661691F385496008AE999 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A1986ADBAEB7137D6C57AAB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D71C16DEF2CE9D020AB15A07 /* Pods-JS-OC.debug.xcconfig */,
+				F12B52F38FC7FCBE83296FDC /* Pods-JS-OC.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E776613F1F385495008AE999 = {
+			isa = PBXGroup;
+			children = (
+				E776614A1F385495008AE999 /* JS-OC */,
+				E77661641F385496008AE999 /* JS-OCTests */,
+				E776616F1F385496008AE999 /* JS-OCUITests */,
+				E77661491F385495008AE999 /* Products */,
+				E776617E1F3857BE008AE999 /* Frameworks */,
+				0A1986ADBAEB7137D6C57AAB /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		E77661491F385495008AE999 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E77661481F385495008AE999 /* JS-OC.app */,
+				E77661611F385496008AE999 /* JS-OCTests.xctest */,
+				E776616C1F385496008AE999 /* JS-OCUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E776614A1F385495008AE999 /* JS-OC */ = {
+			isa = PBXGroup;
+			children = (
+				E776614E1F385495008AE999 /* AppDelegate.h */,
+				E776614F1F385495008AE999 /* AppDelegate.m */,
+				E77661511F385495008AE999 /* ViewController.h */,
+				E77661521F385495008AE999 /* ViewController.m */,
+				E77661841F39C002008AE999 /* OneViewController.h */,
+				E77661851F39C002008AE999 /* OneViewController.m */,
+				E77661871F39C016008AE999 /* TwoViewController.h */,
+				E77661881F39C016008AE999 /* TwoViewController.m */,
+				E776618A1F39C050008AE999 /* ThreeViewController.h */,
+				E776618B1F39C050008AE999 /* ThreeViewController.m */,
+				E77661811F38600C008AE999 /* TestJSObject.h */,
+				E77661821F38600C008AE999 /* TestJSObject.m */,
+				E77661541F385496008AE999 /* Main.storyboard */,
+				E77661571F385496008AE999 /* Assets.xcassets */,
+				E77661591F385496008AE999 /* LaunchScreen.storyboard */,
+				E776615C1F385496008AE999 /* Info.plist */,
+				E776614B1F385495008AE999 /* Supporting Files */,
+			);
+			path = "JS-OC";
+			sourceTree = "<group>";
+		};
+		E776614B1F385495008AE999 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E77661A91F3C36BD008AE999 /* rightVoiceImage */,
+				E77661981F3C36AD008AE999 /* LeftVoiceimage */,
+				E776614C1F385495008AE999 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E77661641F385496008AE999 /* JS-OCTests */ = {
+			isa = PBXGroup;
+			children = (
+				E77661651F385496008AE999 /* JS_OCTests.m */,
+				E77661671F385496008AE999 /* Info.plist */,
+			);
+			path = "JS-OCTests";
+			sourceTree = "<group>";
+		};
+		E776616F1F385496008AE999 /* JS-OCUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E77661701F385496008AE999 /* JS_OCUITests.m */,
+				E77661721F385496008AE999 /* Info.plist */,
+			);
+			path = "JS-OCUITests";
+			sourceTree = "<group>";
+		};
+		E776617E1F3857BE008AE999 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E776617F1F3857BF008AE999 /* JavaScriptCore.framework */,
+				90CEFE0DCC896E40418FD06E /* libPods-JS-OC.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E77661981F3C36AD008AE999 /* LeftVoiceimage */ = {
+			isa = PBXGroup;
+			children = (
+				E77661991F3C36AD008AE999 /* voice1.png */,
+				E776619A1F3C36AD008AE999 /* voice2.png */,
+				E776619B1F3C36AD008AE999 /* voice3.png */,
+				E776619C1F3C36AD008AE999 /* voice4.png */,
+				E776619D1F3C36AD008AE999 /* voice5.png */,
+				E776619E1F3C36AD008AE999 /* voice6.png */,
+				E776619F1F3C36AD008AE999 /* voice7.png */,
+				E77661A01F3C36AD008AE999 /* voice8.png */,
+			);
+			path = LeftVoiceimage;
+			sourceTree = "<group>";
+		};
+		E77661A91F3C36BD008AE999 /* rightVoiceImage */ = {
+			isa = PBXGroup;
+			children = (
+				E77661AA1F3C36BD008AE999 /* voiceR1.png */,
+				E77661AB1F3C36BD008AE999 /* voiceR2.png */,
+				E77661AC1F3C36BD008AE999 /* voiceR3.png */,
+				E77661AD1F3C36BD008AE999 /* voiceR4.png */,
+				E77661AE1F3C36BD008AE999 /* voiceR5.png */,
+				E77661AF1F3C36BD008AE999 /* voiceR6.png */,
+				E77661B01F3C36BD008AE999 /* voiceR7.png */,
+				E77661B11F3C36BD008AE999 /* voiceR8.png */,
+			);
+			path = rightVoiceImage;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E77661471F385495008AE999 /* JS-OC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E77661751F385496008AE999 /* Build configuration list for PBXNativeTarget "JS-OC" */;
+			buildPhases = (
+				983B1D6CC3829536AEF13C0F /* [CP] Check Pods Manifest.lock */,
+				E77661441F385495008AE999 /* Sources */,
+				E77661451F385495008AE999 /* Frameworks */,
+				E77661461F385495008AE999 /* Resources */,
+				3F5EF356C6DBFB2173D1EF34 /* [CP] Embed Pods Frameworks */,
+				333E71D698E4B15DF3B7E974 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "JS-OC";
+			productName = "JS-OC";
+			productReference = E77661481F385495008AE999 /* JS-OC.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E77661601F385496008AE999 /* JS-OCTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E77661781F385496008AE999 /* Build configuration list for PBXNativeTarget "JS-OCTests" */;
+			buildPhases = (
+				E776615D1F385496008AE999 /* Sources */,
+				E776615E1F385496008AE999 /* Frameworks */,
+				E776615F1F385496008AE999 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E77661631F385496008AE999 /* PBXTargetDependency */,
+			);
+			name = "JS-OCTests";
+			productName = "JS-OCTests";
+			productReference = E77661611F385496008AE999 /* JS-OCTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E776616B1F385496008AE999 /* JS-OCUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E776617B1F385496008AE999 /* Build configuration list for PBXNativeTarget "JS-OCUITests" */;
+			buildPhases = (
+				E77661681F385496008AE999 /* Sources */,
+				E77661691F385496008AE999 /* Frameworks */,
+				E776616A1F385496008AE999 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E776616E1F385496008AE999 /* PBXTargetDependency */,
+			);
+			name = "JS-OCUITests";
+			productName = "JS-OCUITests";
+			productReference = E776616C1F385496008AE999 /* JS-OCUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E77661401F385495008AE999 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = lvdesheng;
+				TargetAttributes = {
+					E77661471F385495008AE999 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = 6GJEKL98N9;
+						ProvisioningStyle = Automatic;
+					};
+					E77661601F385496008AE999 = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E77661471F385495008AE999;
+					};
+					E776616B1F385496008AE999 = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E77661471F385495008AE999;
+					};
+				};
+			};
+			buildConfigurationList = E77661431F385495008AE999 /* Build configuration list for PBXProject "JS-OC" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E776613F1F385495008AE999;
+			productRefGroup = E77661491F385495008AE999 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E77661471F385495008AE999 /* JS-OC */,
+				E77661601F385496008AE999 /* JS-OCTests */,
+				E776616B1F385496008AE999 /* JS-OCUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E77661461F385495008AE999 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E77661B71F3C36BD008AE999 /* voiceR6.png in Resources */,
+				E77661A71F3C36AE008AE999 /* voice7.png in Resources */,
+				E77661B51F3C36BD008AE999 /* voiceR4.png in Resources */,
+				E77661A51F3C36AE008AE999 /* voice5.png in Resources */,
+				E77661A21F3C36AE008AE999 /* voice2.png in Resources */,
+				E77661A81F3C36AE008AE999 /* voice8.png in Resources */,
+				E77661A11F3C36AE008AE999 /* voice1.png in Resources */,
+				E77661B81F3C36BD008AE999 /* voiceR7.png in Resources */,
+				E77661B91F3C36BD008AE999 /* voiceR8.png in Resources */,
+				E77661B31F3C36BD008AE999 /* voiceR2.png in Resources */,
+				E77661A31F3C36AE008AE999 /* voice3.png in Resources */,
+				E77661A41F3C36AE008AE999 /* voice4.png in Resources */,
+				E77661B21F3C36BD008AE999 /* voiceR1.png in Resources */,
+				E776615B1F385496008AE999 /* LaunchScreen.storyboard in Resources */,
+				E77661B61F3C36BD008AE999 /* voiceR5.png in Resources */,
+				E77661581F385496008AE999 /* Assets.xcassets in Resources */,
+				E77661561F385496008AE999 /* Main.storyboard in Resources */,
+				E77661A61F3C36AE008AE999 /* voice6.png in Resources */,
+				E77661B41F3C36BD008AE999 /* voiceR3.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E776615F1F385496008AE999 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E776616A1F385496008AE999 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		333E71D698E4B15DF3B7E974 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JS-OC/Pods-JS-OC-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3F5EF356C6DBFB2173D1EF34 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JS-OC/Pods-JS-OC-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		983B1D6CC3829536AEF13C0F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E77661441F385495008AE999 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E77661531F385495008AE999 /* ViewController.m in Sources */,
+				E776618C1F39C050008AE999 /* ThreeViewController.m in Sources */,
+				E77661861F39C002008AE999 /* OneViewController.m in Sources */,
+				E77661831F38600C008AE999 /* TestJSObject.m in Sources */,
+				E77661891F39C016008AE999 /* TwoViewController.m in Sources */,
+				E77661501F385495008AE999 /* AppDelegate.m in Sources */,
+				E776614D1F385495008AE999 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E776615D1F385496008AE999 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E77661661F385496008AE999 /* JS_OCTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E77661681F385496008AE999 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E77661711F385496008AE999 /* JS_OCUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E77661631F385496008AE999 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E77661471F385495008AE999 /* JS-OC */;
+			targetProxy = E77661621F385496008AE999 /* PBXContainerItemProxy */;
+		};
+		E776616E1F385496008AE999 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E77661471F385495008AE999 /* JS-OC */;
+			targetProxy = E776616D1F385496008AE999 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E77661541F385496008AE999 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E77661551F385496008AE999 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E77661591F385496008AE999 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E776615A1F385496008AE999 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E77661731F385496008AE999 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E77661741F385496008AE999 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E77661761F385496008AE999 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D71C16DEF2CE9D020AB15A07 /* Pods-JS-OC.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6GJEKL98N9;
+				INFOPLIST_FILE = "JS-OC/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iusworks.JS-OC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E77661771F385496008AE999 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F12B52F38FC7FCBE83296FDC /* Pods-JS-OC.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6GJEKL98N9;
+				INFOPLIST_FILE = "JS-OC/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iusworks.JS-OC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E77661791F385496008AE999 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "JS-OCTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "lvdesheng.JS-OCTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JS-OC.app/JS-OC";
+			};
+			name = Debug;
+		};
+		E776617A1F385496008AE999 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "JS-OCTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "lvdesheng.JS-OCTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JS-OC.app/JS-OC";
+			};
+			name = Release;
+		};
+		E776617C1F385496008AE999 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "JS-OCUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "lvdesheng.JS-OCUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "JS-OC";
+			};
+			name = Debug;
+		};
+		E776617D1F385496008AE999 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "JS-OCUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "lvdesheng.JS-OCUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "JS-OC";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E77661431F385495008AE999 /* Build configuration list for PBXProject "JS-OC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E77661731F385496008AE999 /* Debug */,
+				E77661741F385496008AE999 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E77661751F385496008AE999 /* Build configuration list for PBXNativeTarget "JS-OC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E77661761F385496008AE999 /* Debug */,
+				E77661771F385496008AE999 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E77661781F385496008AE999 /* Build configuration list for PBXNativeTarget "JS-OCTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E77661791F385496008AE999 /* Debug */,
+				E776617A1F385496008AE999 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E776617B1F385496008AE999 /* Build configuration list for PBXNativeTarget "JS-OCUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E776617C1F385496008AE999 /* Debug */,
+				E776617D1F385496008AE999 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E77661401F385495008AE999 /* Project object */;
+}
